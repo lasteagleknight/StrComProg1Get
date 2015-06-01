@@ -1,0 +1,6 @@
+4.12 Describe the two ways in which control statements can be combined.
+
+One way is to use the nested if...else statement. This provides that under several conditions can develop
+several actions if the if statements are meet.
+The second way is blocking one statement in the other. As long as as the first statement remains true the second
+will be computed.

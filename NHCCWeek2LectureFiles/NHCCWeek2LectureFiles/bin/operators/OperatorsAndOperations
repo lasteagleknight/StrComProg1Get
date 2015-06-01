@@ -1,0 +1,16 @@
+Operator Precedence:
+You can force an operation using parentheses. 
+unary operators: - +
+multiplicative: * / %
+additive: + - 
+assignment: = += -= *= /= %= &= ^= |= <<= >>= >>>=
+
+
+Data Conversion:
+You can change the types of data.
+You can make only widening conversions not narrowing conversions. 
+Three types of data conversion: arithmetic promotion, assignment promotion, cast
+
+arithmetic promotion:   result = 5/5.0  result will hold 1.0.  The int gets promoted to a double.
+assignment promotion:   double result = 6;  the 6 gets promoted to 6.0 through assignment.
+cast:  result = (double)6/50;

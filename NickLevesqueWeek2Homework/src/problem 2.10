@@ -1,0 +1,13 @@
+Assuming that x=2 and y=3 what does each of the following statements display?
+a) System.out.printf("x = %d/n", x);
+	ans) x = 2
+	
+b)System.out.printf("Value of %d + %d is %d\n", x, x, (x + x) );
+	ans) Value of 2 + 2 is 4
+	
+c)System.out.printf( "x =" );
+	ans) x =
+	
+d)System.out.printf( "%d = %d\n", (x + y), (y + x) );
+	ans) 5 = 5
+	
